@@ -1,0 +1,102 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+    
+    .nav-links li {
+    margin-left: 20px;
+    }
+    
+    .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    .nav-links li.active a {
+    font-weight: bold;
+    }
+    
+    main {
+    padding: 20px;
+    }
+    
+    /* Styles spécifiques à la liste des salariés */
+    .salaries-container {
+    max-width: 800px;
+    margin: 0 auto;
+    }
+    
+    .salaries h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    }
+    
+    .salaries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    }
+    
+    .salarie-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .salarie-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+    
+    .salarie-card p {
+    margin-bottom: 10px;
+    }
+    
+    .btn-voir-plus {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .btn-voir-plus:hover {
+    background-color: #555;
+    }
+    .salarie-details {
+        display: none;
+        margin-top: 10px;
+      }
+      
+      .salarie-details.show-details {
+        display: block;
+      }
+      

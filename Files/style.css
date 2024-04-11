@@ -1,0 +1,260 @@
+/* style.css */
+
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styles pour la section de recherche */
+.search-bar {
+  margin-top: 20px;
+}
+
+.placement_recherche {
+  position: relative;
+}
+
+.search {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn-search {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+}
+/* Styles pour la liste des salariés */
+.salaries ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.salaries li {
+  margin-bottom: 10px;
+}
+.search-results ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-results li {
+  padding: 5px;
+}
+
+/* Styles pour la section des salariés */
+.salaries {
+  margin-top: 20px;
+}
+
+.salaries h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.salaries ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.salaries li {
+  margin-bottom: 5px;
+}
+
+/* Styles pour le formulaire de modification */
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+table td {
+  padding: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"] {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"],
+.btn-back {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+.btn-back:hover {
+  background-color: #45a049;
+}
+
+.btn-back
+{
+  background-color: #ff0000;
+  margin-bottom: 20px;
+  }
+
+  .search-form {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Styles pour la liste des salariés */
+.salaries {
+    list-style-type: none;
+    padding: 0;
+}
+
+.salaries li {
+    margin-bottom: 10px;
+}
+
+/* Styles pour le footer */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+
+
+    position: fixed;
+    bottom: 0;
+    
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+
+
+
+.salaries {
+  margin-top: 20px;
+}
+
+.salaries h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.salaries-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.salarie-item {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+}
+
+.salarie-item a {
+  color: #333;
+  text-decoration: none;
+}
+
+.salarie-item a:hover {
+  text-decoration: underline;
+}
+
+
+.btn-modifier {
+  background-color: #337ab7;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-left: 10px;
+}

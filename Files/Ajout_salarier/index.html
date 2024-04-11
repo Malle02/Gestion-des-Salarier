@@ -1,0 +1,89 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajout d'un nouveau salarié</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            width: 80%;
+           
+        }
+        td {
+            padding: 5px;
+        }
+        input[type="text"], input[type="date"], input[type="email"] {
+            width: 250px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenue sur la page d'ajout</h1>
+    <h2>Merci de saisir les informations du nouveau salarié</h2>
+    <form method="POST" action="ajout_salarie.php">
+        <table>
+            <tr>
+                <td>Nom :</td>
+                <td><input type="text" name="FirstName"></td>
+            </tr>
+            <tr>
+                <td>Prénom :</td>
+                <td><input type="text" name="LastName"></td>
+            </tr>
+            <tr>
+                <td>Poste occupé :</td>
+                <td><input type="text" name="Poste"></td>
+            </tr>
+            <tr>
+                <td>Date d'embauche :</td>
+                <td><input type="date" name="Date_embauche"></td>
+            </tr>
+            <tr>
+                <td>Salaire :</td>
+                <td><input type="text" name="Salaire"></td>
+            </tr>
+            <tr>
+                <td>Département :</td>
+                <td><input type="text" name="Departement"></td>
+            </tr>
+            <tr>
+                <td>Email de contact :</td>
+                <td><input type="email" name="Mail"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Ajouter">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
